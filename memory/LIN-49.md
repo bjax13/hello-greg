@@ -14,8 +14,8 @@
 
 **Local env:** Ran `vercel env pull .env.local` — development env includes `POSTGRES_*`, `SUPABASE_*`, `NEXT_PUBLIC_SUPABASE_*`, `VERCEL_OIDC_TOKEN`, etc. `.env.local` and `.vercel` are gitignored.
 
-**Git status after setup:** `main` clean except untracked `.cursor/` and pending commit for new tracked files (`.gitignore`, `vercel.json`, `memory/LIN-49.md`).
-
 ### 2026-04-15T19:41:00Z
 
-Pushed commit `b3d1007` to `origin/main` adding `.gitignore`, `vercel.json`, and this memory file.
+Pushed commit `b3d1007` to `origin/main` adding `.gitignore`, `vercel.json`, and this memory file. Follow-up: `06e8e9b` (memory update).
+
+**Git status:** `main` matches `origin/main`; only untracked path is local `.cursor/`.
